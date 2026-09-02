@@ -1,0 +1,6 @@
+{
+  "name": "QR Studio",
+  "description": "A polished bulk QR code generator with batch ZIP download, live URL validation, and modern styling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
