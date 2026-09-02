@@ -10,6 +10,10 @@
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
 
+    <!-- Website Favicon -->
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+
     <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -105,23 +109,13 @@
     <header id="main-header" class="h-14 border-b border-slate-200 bg-white sticky top-0 z-40 flex items-center justify-between px-4 sm:px-6 flex-shrink-0 transition-colors">
       <!-- Logo & Branding -->
       <div class="flex items-center gap-3">
-        <div class="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center text-white shadow-xs">
-          <!-- QR geometric icon -->
-          <svg class="w-4.5 h-4.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect width="5" height="5" x="3" y="3" rx="1"/>
-            <rect width="5" height="5" x="16" y="3" rx="1"/>
-            <rect width="5" height="5" x="3" y="16" rx="1"/>
-            <path d="M21 16h-3a2 2 0 0 0-2 2v3"/>
-            <path d="M21 21v.01"/>
-            <path d="M12 7v3a2 2 0 0 1-2 2H7"/>
-            <path d="M3 12h.01"/>
-            <path d="M12 3h.01"/>
-            <path d="M12 16v.01"/>
-            <path d="M16 12h1"/>
-            <path d="M21 12v.01"/>
-            <path d="M12 21v-4"/>
-          </svg>
-        </div>
+        <img
+          id="qr-studio-logo"
+          src="/logo.png"
+          alt="QR Studio"
+          class="w-[30px] h-[30px] sm:w-[32px] sm:h-[32px] object-contain rounded-lg flex-shrink-0 select-none shadow-xs"
+          referrerPolicy="no-referrer"
+        />
         <div class="flex items-center">
           <span class="font-bold text-base sm:text-lg tracking-tight text-slate-900">QR Studio</span>
           <span class="text-xs text-slate-400 ml-2 font-medium hidden sm:inline">Bulk Generator</span>
